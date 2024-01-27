@@ -19,3 +19,14 @@ print(x)#printing pi value in x
 import datetime#including external file which contain pre-defined function related to date and time
 x = datetime.datetime.now()#used to get the current date and time
 print(x)
+
+#Example 5
+import datetime#including external file which contain pre-defined function related to date and time
+x = datetime.datetime(2019, 6, 1)#can put own date and time to display
+print(x)
+
+#Example 6
+import datetime#including external file which contain pre-defined function related to date and time
+x = datetime.datetime.now()
+print(x.year)
+print(x.strftime("%C"))
