@@ -4,3 +4,13 @@ key_dictionary = ["Atif","Ali","Ahmed"]#simple array with only one key element, 
 keypaired_dictionary = {"Ronaldo" : 7, "Messi" : 10}#advanced array with key pair containing two elements at one index location (key and its value), it uses curly brackets and colon to declare value for dictionaries
 print(key_dictionary[0])#use index number to call
 print(keypaired_dictionary["Ronaldo"])#use key to get the value
+
+
+#dictionaries/arrays
+key_dictionary = ["Atif","Ali","Ahmed"]#simple array with only one key element, it uses square brackets for list
+keypaired_dictionary = {"Ronaldo" : 7, "Messi" : 10}#advanced array with key pair containing two elements at one index location (key and its value), it uses curly brackets and colon to declare value for dictionaries
+print(key_dictionary[0])#use index number to call
+print(keypaired_dictionary["Ronaldo"])#use key to get the value
+del keypaired_dictionary["Messi"]
+print(keypaired_dictionary)
+keypaired_dictionary
