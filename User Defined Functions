@@ -1,1 +1,16 @@
+#Example 1(simple function without parameters)
+def intro():#def keyword is used for defination/declaration of function 
+            #intro is the function name and () represents that intro is the function
+    print("My name is Syed Atif Ali")
+    print("I am in grade 10")
+    print("Favourite color blue")
+    
+intro()#calling function    
 
+#Example 2 (even odd number identifying by taking input from user
+def even_odd(x):
+    if(x % 2 == 0):
+        print("Even")
+    elif(x % 2 != 0):
+        print("Odd")
+even_odd(int(input("Enter number: ")) )        
