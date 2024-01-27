@@ -4,13 +4,33 @@ def intro():#def keyword is used for defination/declaration of function
     print("My name is Syed Atif Ali")
     print("I am in grade 10")
     print("Favourite color blue")
-    
 intro()#calling function    
 
-#Example 2 (even odd number identifying by taking input from user
+#Example 2 (even odd number identifying by taking input from user)
 def even_odd(x):
     if(x % 2 == 0):
         print("Even")
     elif(x % 2 != 0):
         print("Odd")
 even_odd(int(input("Enter number: ")) )        
+
+#Example 3 (managing arguments)
+def arg(x, y = 10):#managing two arguments one is x which the user will put and  y argument is already declared
+    print("x :" , x)#printing user input argument
+    print("Y :", y)#printing already declared arguments
+print("Y is already declared")
+arg(int(input("Enter argument for x: ")))  
+
+#Example 4(Python Keyword arguments)
+#this tell whether we give information unsequentially it doesn't matter it matters how we call and use parameters
+def student(firstname, lastname):
+    print(firstname, lastname)#printing sequentially
+student(firstname = "Atif", lastname = "Ali")#giving arguments sequentially
+student(lastname = "Ali", firstname = "Atif")#giving arguments non-sequentially
+
+#Example 5(function for adding two values given by user)
+def adding_two_values(num1, num2):
+    sum =  num1 + num2
+    print("Sum : ", sum)
+adding_two_values(num1 = int(input("Enter number 1: ")), num2 = int(input("Enter number 2: ")))    
+   
