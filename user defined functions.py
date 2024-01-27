@@ -17,5 +17,5 @@ print(x)#printing pi value in x
 
 #Example 4
 import datetime#including external file which contain pre-defined function related to date and time
-x = datetime.datetime.now()
+x = datetime.datetime.now()#used to get the current date and time
 print(x)
