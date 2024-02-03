@@ -1,0 +1,69 @@
+# list with elements of different data types
+list1 = [1, "Hello", 3.4]
+
+# List slicing in Python
+
+my_list = ['p','r','o','g','r','a','m','i','z']
+
+# items from index 2 to index 4
+print(my_list[2:5])
+
+# items from index 5 to end
+print(my_list[5:])
+
+# items beginning to end
+print(my_list[:])
+
+numbers = [21, 34, 54, 12]
+
+print("Before Append:", numbers)
+
+# using append which is use to add element to array
+numbers.append(32)
+
+print("After Append:", numbers)
+
+
+numbers = [10, 30, 40]
+
+# insert an element at index 1 (second position)
+numbers.insert(1, 20)
+
+print(numbers) # [10, 20, 30, 40]
+
+languages = ['Python', 'Swift', 'C++', 'C', 'Java', 'Rust', 'R']
+
+# deleting the second item
+del languages[1]
+print(languages) # ['Python', 'C++', 'C', 'Java', 'Rust', 'R']
+
+# deleting the last item
+del languages[-1]
+print(languages) # ['Python', 'C++', 'C', 'Java', 'Rust']
+
+# delete the first two items
+del languages[0 : 2]  # ['C', 'Java', 'Rust']
+print(languages)
+
+languages = ['Python', 'Swift', 'C++', 'C', 'Java', 'Rust', 'R']
+
+# create a list with value n ** 2 where n is a number from 1 to 5
+numbers = [n**2 for n in range(1, 6)]
+
+print(numbers)    
+
+# Output: [1, 4, 9, 16, 25]
+
+languages = ['Python', 'Swift', 'C++', 'C', 'Java', 'Rust', 'R']
+
+# remove 'Python' from the list
+languages.remove('Python')
+
+print(languages) # ['Swift', 'C++', 'C', 'Java', 'Rust', 'R']
+
+# create a list with value n ** 2 where n is a number from 1 to 5
+numbers = [n**2 for n in range(1, 6)]
+
+print(numbers)    
+
+# Output: [1, 4, 9, 16, 25]
