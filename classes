@@ -95,7 +95,7 @@ while True:
         new_student.inside(name1, age1)
         students.append(new_student)
         total_students += 1
-        print(f"Student {name1} has been added!")
+        print(f"Student {name1} has been added!, with the roll no: {total_students}")
         print("")
 
     elif option == 2:
@@ -116,3 +116,4 @@ while True:
     else:
         print("Invalid option. Please try again.")
         print("")
+
