@@ -116,7 +116,7 @@ def set_png_as_page_bg(download.jpg):
     st.markdown(page_bg_img, unsafe_allow_html=True)
     return
 
-set_png_as_page_bg('background.png')
+set_png_as_page_bg('background.jpg')
 
 
 import  streamlit as st
