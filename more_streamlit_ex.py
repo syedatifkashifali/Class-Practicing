@@ -20,7 +20,7 @@ data_df = pd.DataFrame(
 )
 
 st.data_editor(
-    data_df,
+    data_df, 
     column_config={
         "apps": st.column_config.ImageColumn(
             "Preview Image", help="Streamlit app preview screenshots"
